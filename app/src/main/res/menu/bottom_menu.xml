@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottomCocktail"
+        android:icon="@drawable/cocktail"
+        android:title="칵테일"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottomIngredient"
+        android:icon="@drawable/cocktail_shaker"
+        android:title="재료"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/bottomShop"
+        android:enabled="true"
+        android:icon="@drawable/front_store"
+        android:title="전통주샵"
+        app:showAsAction="ifRoom"/>
+
+</menu>
