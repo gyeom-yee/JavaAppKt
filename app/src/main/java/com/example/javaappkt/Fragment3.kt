@@ -32,7 +32,7 @@ class Fragment3 : Fragment() {
                 return true
             }
         }
-        myWebView.loadUrl("https://www.homesool.com")
+        myWebView.loadUrl("https://www.soolmarket.com")
         myWebView.settings.javaScriptEnabled = true
         myWebView.settings.allowContentAccess = true
         myWebView.settings.domStorageEnabled = true

@@ -1,5 +1,6 @@
 package com.example.javaappkt
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -88,6 +89,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return super.onCreateOptionsMenu(menu) // 옵션 메뉴 생성 부분
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val intent1 = Intent(this, AddCocktail::class.java)
+        var intent2 = Intent(this, AddIngredient::class.java)
+        when(item.itemId) {
+            R.id.tbAddCocktail -> startActivity(intent1)
+            R.id.tbAddIngredient -> startActivity(intent2)
+        }
+        return super.onOptionsItemSelected(item)
+    }
 
     override fun onBackPressed() { // back 버튼 누를 시 수행하는 메소드
         if (binding.layoutDrawer.isDrawerOpen(GravityCompat.START)) {
