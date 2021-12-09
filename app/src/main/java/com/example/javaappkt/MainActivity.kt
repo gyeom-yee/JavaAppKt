@@ -9,7 +9,6 @@ import android.widget.Toast
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import com.example.javaappkt.databinding.ActivityMainBinding
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -38,7 +37,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         /*하단 네비게이션*/
         initNavigationBar()
+
     }
+
 
     /*바텀 네비게이션 프래그먼트*/
     private fun initNavigationBar() {
@@ -66,6 +67,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             .commit()
     }
 
+
     /*햄버거바 네비게이션*/
     override fun onNavigationItemSelected(item: MenuItem): Boolean { //네비게이션 메뉴 아이템 클릭 시 수행
         when (item.itemId) {
@@ -78,12 +80,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return false
     }
 
+
     /*툴바 네비게이션*/
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.tb_menu, menu)
         val search = menu?.findItem(R.id.tbSearch)?.actionView as SearchView
         return super.onCreateOptionsMenu(menu) // 옵션 메뉴 생성 부분
     }
+
 
     override fun onBackPressed() { // back 버튼 누를 시 수행하는 메소드
         if (binding.layoutDrawer.isDrawerOpen(GravityCompat.START)) {

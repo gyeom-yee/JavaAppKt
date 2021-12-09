@@ -18,7 +18,7 @@ class Fragment2 : Fragment() {
     }
 
     override fun onDestroyView() {
-        // onDestroyView 에서 binding class 인스턴스 참조를 정리해주어야 한다.
+        // onDestroyView 에서 binding class 인스턴스 참조를 정리
         mBinding = null
         super.onDestroyView()
     }
