@@ -2,21 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
 
-        <item android:id="@+id/naviLogin"
+        <item
+            android:id="@+id/naviLogin"
             android:icon="@drawable/ic_baseline_person_outline_24"
-            android:title="로그인"/>
+            android:title="로그인" />
 
-        <item android:id="@+id/naviNotice"
+        <item
+            android:id="@+id/naviNotice"
             android:icon="@drawable/ic_baseline_event_note_24"
-            android:title="공지사항"/>
+            android:title="공지사항" />
 
-        <item android:id="@+id/naviHelp"
+        <item
+            android:id="@+id/naviHelp"
             android:icon="@drawable/ic_baseline_help_outline_24"
-            android:title="도움말"/>
+            android:title="도움말" />
 
-        <item android:id="@+id/naviSetting"
+        <item
+            android:id="@+id/naviSetting"
             android:icon="@drawable/ic_baseline_settings_24"
-            android:title="설정"/>
+            android:title="설정" />
 
     </group>
 </menu>

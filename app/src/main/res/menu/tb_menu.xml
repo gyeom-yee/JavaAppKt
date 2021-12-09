@@ -9,12 +9,12 @@
 
         <item
             android:id="@+id/tbAddCocktail"
-            android:title="Create an cocktail"
+            android:title="칵테일 추가하기"
             app:showAsAction="never"/>
 
         <item
             android:id="@+id/tbAddIngredient"
-            android:title="Create an ingredient"
+            android:title="재료 추가하기"
             app:showAsAction="never"/>
 
 </menu>

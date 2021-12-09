@@ -18,7 +18,7 @@ class Fragment1 : Fragment() {
         mBinding = FragCocktailBinding.inflate(inflater,container,false)
 
         // 탭 설정
-        binding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
+        binding.tabLayoutCock.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabSelected(tab: TabLayout.Tab?) {
                 // 탭이 선택되었을때
             }
@@ -33,12 +33,12 @@ class Fragment1 : Fragment() {
         })
 
         // 뷰페이저에 어댑터 연결
-        binding.pager.adapter = ViewPagerAdapter(requireActivity())
+        binding.pagerCock.adapter = ViewPagerAdapter1(requireActivity())
         //탭과 뷰페이저 연결, 여기서 새로운 탭 다시 만드므로 레이아웃에서 꾸미지말고 여기서 꾸며야 함
-        TabLayoutMediator(binding.tabLayout, binding.pager) {tab, position ->
+        TabLayoutMediator(binding.tabLayoutCock, binding.pagerCock) {tab, position ->
             when(position) {
-                0 -> tab.text = "My Cocktail"
-                1 -> tab.text = "All Cocktail"
+                0 -> tab.text = "내 칵테일"
+                1 -> tab.text = "모든 칵테일"
             }
         }.attach()
 

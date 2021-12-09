@@ -7,8 +7,12 @@
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/drawable/bottom_navigation_color.xml" value="0.378125" />
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.378125" />
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/activity_main.xml" value="0.34739583333333335" />
+        <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/frag_all_cocktail.xml" value="0.3619791666666667" />
+        <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/frag_all_ingredient.xml" value="0.3619791666666667" />
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/frag_cocktail.xml" value="0.3619791666666667" />
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/frag_ingredient.xml" value="0.3619791666666667" />
+        <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/frag_my_cocktail.xml" value="0.3619791666666667" />
+        <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/frag_my_ingredient.xml" value="0.3619791666666667" />
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/layout/frag_shop.xml" value="0.3619791666666667" />
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/menu/bottom_menu.xml" value="0.3619791666666667" />
         <entry key="..\:/androidProjects/JavaAppKt/app/src/main/res/menu/navi_menu.xml" value="0.3619791666666667" />
