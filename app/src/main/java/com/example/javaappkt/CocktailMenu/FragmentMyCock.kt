@@ -1,19 +1,19 @@
-package com.example.javaappkt
+package com.example.javaappkt.CocktailMenu
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.javaappkt.databinding.FragAllCocktailBinding
+import com.example.javaappkt.databinding.FragMyCocktailBinding
 
-class FragmentAllCock :Fragment() {
+class FragmentMyCock : Fragment() {
 
-    private var mBinding: FragAllCocktailBinding? = null
+    private var mBinding : FragMyCocktailBinding? = null
     private val binding get() = mBinding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        mBinding = FragAllCocktailBinding.inflate(inflater, container, false)
+        mBinding = FragMyCocktailBinding.inflate(inflater, container, false)
         return binding.root
     }
 }

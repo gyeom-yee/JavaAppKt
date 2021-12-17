@@ -1,4 +1,4 @@
-package com.example.javaappkt
+package com.example.javaappkt.CommonInfo.BottomNavi
 
 import android.content.Context
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
+import com.example.javaappkt.R
 import com.example.javaappkt.databinding.FragShopBinding
 
 class Fragment3 : Fragment() {

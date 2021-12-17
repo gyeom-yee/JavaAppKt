@@ -1,4 +1,4 @@
-package com.example.javaappkt
+package com.example.javaappkt.CommonInfo
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,12 @@ import android.widget.SearchView
 import android.widget.Toast
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
+import com.example.javaappkt.CommonInfo.BottomNavi.Fragment1
+import com.example.javaappkt.CommonInfo.BottomNavi.Fragment2
+import com.example.javaappkt.CommonInfo.BottomNavi.Fragment3
+import com.example.javaappkt.CommonInfo.ToolbarNavi.AddCocktail
+import com.example.javaappkt.CommonInfo.ToolbarNavi.AddIngredient
+import com.example.javaappkt.R
 import com.example.javaappkt.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationView
 

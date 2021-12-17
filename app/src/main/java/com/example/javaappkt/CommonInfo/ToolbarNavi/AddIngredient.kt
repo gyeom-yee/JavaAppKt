@@ -1,24 +1,24 @@
-package com.example.javaappkt
+package com.example.javaappkt.CommonInfo.ToolbarNavi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.example.javaappkt.databinding.ActivityAddCocktailBinding
+import com.example.javaappkt.databinding.ActivityAddIngredientBinding
 
-class AddCocktail : AppCompatActivity() {
+class AddIngredient : AppCompatActivity() {
 
-    private var mBinding : ActivityAddCocktailBinding? = null
+    private var mBinding : ActivityAddIngredientBinding? = null
     private val binding get() = mBinding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBinding = ActivityAddCocktailBinding.inflate(layoutInflater)
+        mBinding = ActivityAddIngredientBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.tbBack)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
-        binding.tbBack.title = "칵테일 추가하기"
+        binding.tbBack.title = "재료 추가하기"
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

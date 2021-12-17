@@ -13,13 +13,13 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".AddIngredient"
+            android:name=".CommonInfo.ToolbarNavi.AddIngredient"
             android:exported="false" />
         <activity
-            android:name=".AddCocktail"
+            android:name=".CommonInfo.ToolbarNavi.AddCocktail"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".CommonInfo.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

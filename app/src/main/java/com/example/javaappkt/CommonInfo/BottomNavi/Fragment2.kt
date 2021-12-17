@@ -1,10 +1,11 @@
-package com.example.javaappkt
+package com.example.javaappkt.CommonInfo.BottomNavi
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.javaappkt.Adapter.ViewPagerAdapter2
 import com.example.javaappkt.databinding.FragIngredientBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator

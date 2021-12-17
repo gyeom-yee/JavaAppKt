@@ -5,7 +5,7 @@
     android:id="@+id/layoutDrawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".CommonInfo.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -57,10 +57,10 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="@color/white"
-            app:itemIconSize="37dp"
+            app:itemIconSize="27dp"
             app:itemIconTint="@drawable/bottom_navigation_color"
             app:itemTextColor="@drawable/bottom_navigation_color"
-            app:labelVisibilityMode="unlabeled"
+            app:labelVisibilityMode="labeled"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
